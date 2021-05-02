@@ -1,0 +1,37 @@
+.user_box {
+	display: flex;
+	position: initial;
+	flex-direction: row;
+	justify-content: left;
+  
+	width: 97%;
+	height: 95%;
+	background: purple;
+  }
+  
+  .bot_image > img
+  {
+	border: 1px solid red;
+	margin-top: 5px;
+	margin-left: 5px;
+	width: 120px;
+  }
+  
+  .info_box
+  {
+	font-family: 'Courier New', Courier, monospace;
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+  }
+  
+  .bot_name
+  {
+	font-size: 25px;
+	font-weight: bold;
+  }
+.time_box
+{
+	display: flex;
+	justify-content: flex-end;
+}

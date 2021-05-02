@@ -20,11 +20,8 @@ body {
 .container {
   display: flex;
   justify-content: space-around;  
-
   height: calc(100% - 40px);
   width: calc(100% - 40px);
-  min-width: 1600px;
-  min-height: 700px;
   padding: 20px;
   background-color: rgb(121, 121, 121, 0.3);
 }
@@ -127,40 +124,6 @@ body {
   background: orange;
 }
 
-/* Contacto box */
-.user_box {
-  display: flex;
-  position: initial;
-  flex-direction: row;
-  justify-content: left;
-
-  width: 97%;
-  height: 95%;
-  background: purple;
-}
-
-.bot_image > img
-{
-  border: 1px solid red;
-  margin-top: 5px;
-  margin-left: 5px;
-  width: 120px;
-}
-
-.info_box
-{
-  font-family: 'Courier New', Courier, monospace;
-  display: flex;
-  flex-direction: column;
-  justify-content: left;
-}
-
-.bot_name
-{
-  font-size: 25px;
-  font-weight: bold;
-}
-/* ================================= */
 
 .bottom_bar {
   display: flex;
